@@ -1,0 +1,19 @@
+# IntelliJ
+.idea
+*.iml
+target
+
+# Eclipse
+.metadata
+.settings
+.classpath
+.project
+bin
+tmp
+
+# VisualStudioCode 
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
