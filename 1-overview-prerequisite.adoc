@@ -1,6 +1,6 @@
 [[overview-prerequisite]]
 Overview and prerequisites
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In this Lab we will look at how to install the OpenShift CLI tools.
 
