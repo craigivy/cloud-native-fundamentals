@@ -20,6 +20,6 @@ Create a basic application using Red Hat's launcher wizard
 * Inside the folder you will see a README.adoc file 
 follow the instructions in it
 
-*Note:* the application can be found on https://github.com/craigivy/cloud-native-fundamentals/tree/master/rest-api[github]
+*Note:* the application can be found on https://github.com/craigivy/cloud-native-fundamentals/tree/master/3-create-application[github]
 
 link:0_toc.adoc[Table Of Contents]
