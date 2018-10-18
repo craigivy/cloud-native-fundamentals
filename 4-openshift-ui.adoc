@@ -1,0 +1,38 @@
+[[openshift_ui]]
+OpenShit UI
+~~~~~~~~~~~
+
+In this Lab we will walk through the openshift UI base on the service you created in the previous step
+
+*Review your pods*
+
+* Log into the openshift UI
+* Select your project from the list on the right
+* In the `Builds > Builds` section, notice the build you created earlier
+* In the `Builds > Images` section, notice the image you created
+* Go to the `Overview` section, click on the pod that was created
+* Click on the logs tab notice you will see a familar set of logs.
+* Click on teh terminal tab and run the commands
+---
+$ ls /deployments
+$ ps -ef
+---
+
+
+
+
+* Create the application using the https://developers.redhat.com/launch/wizard[launcher]
+* Give your application the name `cloud-native-fundamentals`
+* Select build and run locally
+* Select REST API Level 0  in the left column
+* Select Spring Boot and the current RHOAR release and right column
+* Change the artificatID in the application information to `api`
+* Click the `Set Up Application` button to download.
+* Create a root folder and unzip the application in it
+
+* Inside the folder you will see a README.adoc file 
+follow the instructions in it
+
+*Note:* the application can be found on https://github.com/craigivy/cloud-native-fundamentals/tree/master/rest-api[github]
+
+link:0_toc.adoc[Table Of Contents]
