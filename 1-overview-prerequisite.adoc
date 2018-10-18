@@ -1,0 +1,24 @@
+[[overview-prerequisite]]
+Overview and prerequisites
+~~~~~~~~~~~~~~~~~~~~~~~
+
+In this Lab we will look at how to install the OpenShift CLI tools.
+
+*Overview*
+
+Demonstrate how the service can be scaled. 
+Demonstrate how the service address can be used to call a scaled service.  
+Demonstrate how routes can be used to externalize a service.
+Demonstrate how to use config maps to store service configuration
+Demonstrate how to use secrets to store secure information.
+Demonstrate how a Spring Boot application can be deployed inside of JWS
+
+*Prerequisites*
+* OpenJDK or JDK 1.8 installed
+* Access to github and basic git knowledge
+* Maven installed with access to Red Hat repositories
+* Access to sites with untrusted certificates
+* Abitity to install software
+* Participants should have redhat developer accounts
+
+link:0_toc.adoc[Table Of Contents]
