@@ -9,3 +9,5 @@ Table of Contents
 * link:1-overview-prerequisite.adoc[Overview and Prerequisites]
 * link:2-setting-up-client-tools.adoc[Setting up client tools]
 * link:3-create-application.adoc[Create application]
+* link:4-openshift-ui.adoc[OpenShift UI]
+* link:5-health.adoc[Health Check]
