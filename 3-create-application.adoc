@@ -13,7 +13,7 @@ Create a basic application using Red Hat's launcher wizard
 * Select build and run locally
 * Select REST API Level 0  in the left column
 * Select Spring Boot and the current RHOAR release and right column
-* Change the artificatID in the application information to `api`
+* Change the `Maven Artifact` in the application information to `api`
 * Click the `Set Up Application` button to download.
 * Create a root folder and unzip the application in it
 
