@@ -16,7 +16,6 @@ Create a basic application using Red Hat's launcher wizard
 * Change the `Maven Artifact` in the application information to `api`
 * Click the `Set Up Application` button to download.
 * Create a root folder and unzip the application in it
-
 * Inside the folder you will see a README.adoc file 
 follow the instructions in it
 
