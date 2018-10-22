@@ -22,4 +22,4 @@ follow the instructions in it
 
 *Note:* the application can be found on https://github.com/craigivy/cloud-native-fundamentals/tree/master/5-health[github]
 
-link:0_toc.adoc[Table Of Contents]
+link:0_toc.adoc[Table of Contents]
