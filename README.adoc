@@ -114,6 +114,8 @@ In this Lab we will walk through the openshift UI base on the service you create
 * Select your project from the list on the right
 * In the `Builds > Builds` section, notice the build you created earlier
 * In the `Builds > Images` section, notice the image you created
+* In the `Applications > Services` section notice the service you create
+* In the `Applications > Routes` section notice the service you create
 * Go to the `Overview` section, click on the pod that was created
 * Click on the logs tab notice you will see a familar set of logs.
 * Click on the terminal tab and run the commands, notice the uber jar is in the container and its process is running
