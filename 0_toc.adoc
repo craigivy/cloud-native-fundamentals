@@ -11,4 +11,4 @@ Table of Contents
 * link:3-create-application.adoc[Create application]
 * link:4-openshift-ui.adoc[OpenShift UI]
 * link:5-health.adoc[Health Check]
-* link:6-config.adoc[Health Check]
+* link:6-config.adoc[External Configuration]
