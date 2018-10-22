@@ -11,9 +11,9 @@ To run this booster on your local host:
 
 [source,bash,options="nowrap",subs="attributes+"]
 ----
-$ unzip health.zip
+$ unzip booster-health-check-spr.zip
 
-$ cd health
+$ cd booster-health-check-spr
 
 $ mvn spring-boot:run
 ----

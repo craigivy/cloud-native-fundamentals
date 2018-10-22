@@ -3,6 +3,6 @@
 <property name="namespace.use.current">true</property>
 <property name="env.init.enabled">true</property>
 <property name="enableImageStreamDetection">false</property>
-<property name="app.name">health</property>
+<property name="app.name">booster-health-check-spr</property>
 </extension>
 </arquillian>
