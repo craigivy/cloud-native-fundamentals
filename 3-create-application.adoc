@@ -9,7 +9,7 @@ In this Lab we will create a basic rest application using the launcher.  We will
 Create a basic application using Red Hat's launcher wizard
 
 * Create the application using the https://developers.redhat.com/launch/wizard[launcher]
-* Give your application the name `cloud-native-fundamentals`
+* Give your application the name `rest`
 * Select build and run locally
 * Select REST API Level 0  in the left column
 * Select Spring Boot and the current RHOAR release and right column

@@ -10,9 +10,9 @@ To run this booster on your local host:
 
 [source,bash,options="nowrap",subs="attributes+"]
 ----
-$ unzip booster.zip
+$ unzip booster-resthttp-springboot.zip
 
-$ cd booster
+$ cd booster-resthttp-springboot
 
 $ mvn spring-boot:run
 ----
