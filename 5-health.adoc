@@ -9,7 +9,7 @@ In this Lab we use an application from the launcher to show the value of the hea
 Create a basic application using Red Hat's launcher wizard
 
 * Create the application using the https://developers.redhat.com/launch/wizard[launcher]
-* Give your application the name `health`
+* Give your application the name `booster-health-check-spr`
 * Select build and run locally
 * Select `Health Check`  in the left column
 * Select Spring Boot and the current `RHOAR release` and right column

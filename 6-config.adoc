@@ -1,15 +1,15 @@
 [[health]]
-Health Check Lab
-~~~~~~~~~~~~~~~~~~
+External Configuration Lab
+~~~~~~~~~~~~~~~~
 
-In this Lab we use an application from the launcher to show the value of the health check.
+In this Lab we use an application from the launcher to demonstrate how configmaps can be used to externalize configuration
 
 *Create an application using the launcher*
 
 Create a basic application using Red Hat's launcher wizard
 
 * Create the application using the https://developers.redhat.com/launch/wizard[launcher]
-* Give your application the name `config`
+* Give your application the name `booster-configmap-spring-boot`
 * Select build and run locally
 * Select `Externalized Configuration`  in the left column
 * Select Spring Boot and the current `RHOAR release` and right column
@@ -22,4 +22,4 @@ follow the instructions in it
 
 *Note:* the application can be found on https://github.com/craigivy/cloud-native-fundamentals/tree/master/6-config[github]
 
-link:0_toc.adoc[Table Of Contents]  
+link:0_toc.adoc[Table Of Contents]
