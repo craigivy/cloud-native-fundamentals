@@ -1,5 +1,6 @@
 :toc:
 
+:sectnums:
 == Overview
 In this lab we will be using Red Hat's launcher to learn about cloud native concepts and how they can be applied in Openshit.  You will learn how to create an applications on Openshift, build knowledge of health check functionality, scaling, and external configuration.
 
@@ -10,7 +11,7 @@ In this lab we will be using Red Hat's launcher to learn about cloud native conc
 * Externalizing your applications configuration
 * Running a WAR in OpenShift with JWS
 
-== Prerequisites
+=== Prerequisites
 
 * OpenJDK or JDK 1.8 installed
 * Access to github and basic git knowledge
@@ -84,7 +85,7 @@ To login to a remote server use:
 $ oc login <hostname>:<port>
 ----
 
-== Create application
+== Create an application
 
 In this Lab we will create a basic rest application using the launcher.  We will run it locally and on openshift.
 
@@ -93,17 +94,17 @@ In this Lab we will create a basic rest application using the launcher.  We will
 Create a basic application using Red Hat's launcher wizard
 
 * Create the application using the https://developers.redhat.com/launch/wizard[launcher]
-* Give your application the name `booster-resthttp-springboot`
+* Give your application the name *booster-resthttp-springboot*
 * Select build and run locally
-* Select `REST API Level 0`  in the left column
-* Select Spring Boot and the current `RHOAR release` and right column
-* Change the `Maven Artifact` in the application information to `booster-resthttp-springboot`
-* Click the `Set Up Application` button to download.
+* Select *REST API Level 0*  in the left column
+* Select Spring Boot and the current *RHOAR release* and right column
+* Change the *Maven Artifact* in the application information to *booster-resthttp-springboot*
+* Click the *Set Up Application* button to download.
 * Create a root folder and unzip the application in it
 * Inside the folder you will see a README.adoc file 
 follow the instructions in it
 
-*Note:* the application can be found on https://github.com/craigivy/cloud-native-fundamentals/tree/master/3-create-application[github]
+NOTE: the application can be found on https://github.com/craigivy/cloud-native-fundamentals/tree/master/3-create-application[github]
 
 == OpenShit UI
 
@@ -115,13 +116,13 @@ In this Lab we will walk through the openshift UI base on the service you create
 * Select your project from the list on the right
 
 ==== Builds
-* In the `Builds > Builds` section, notice the build you created earlier
-* In the `Builds > Images` section, notice the image you created
+* In the *Builds > Builds* section, notice the build you created earlier
+* In the *Builds > Images* section, notice the image you created
 
 ==== Applications
-* In the `Applications > Services` section notice the service you create
-* In the `Applications > Routes` section notice the routes you create
-* Go to the `Overview` section, click on the pod that was created
+* In the *Applications > Services* section notice the service you created
+* In the *Applications > Routes* section notice the routes you created
+* Go to the *Overview* section, click on the pod that was created
 * Click on the logs tab notice you will see a familar set of logs.
 * Click on the terminal tab and run the commands, notice the uber jar is in the container and its process is running
 
@@ -140,18 +141,18 @@ In this Lab we use an application from the launcher to show the value of the hea
 Create a basic application using Red Hat's launcher wizard
 
 * Create the application using the https://developers.redhat.com/launch/wizard[launcher]
-* Give your application the name `booster-health-check-spr`
+* Give your application the name *booster-health-check-spr*
 * Select build and run locally
-* Select `Health Check`  in the left column
-* Select Spring Boot and the current `RHOAR release` and right column
-* Change the `Maven Artifact` in the application information to `booster-health-check-spr`
-* Click the `Set Up Application` button to download.
+* Select *Health Check* in the left column
+* Select Spring Boot and the current *RHOAR release* and right column
+* Change the *Maven Artifact* in the application information to *booster-health-check-spr*
+* Click the *Set Up Application* button to download.
 * Create a root folder and unzip the application in it
 
 * Inside the folder you will see a README.adoc file 
 follow the instructions in it
 
-*Note:* the application can be found on https://github.com/craigivy/cloud-native-fundamentals/tree/master/5-health[github]
+NOTE: the application can be found on https://github.com/craigivy/cloud-native-fundamentals/tree/master/5-health[github]
 
 == External Configuration Lab
 
@@ -162,16 +163,16 @@ In this Lab we use an application from the launcher to demonstrate how configmap
 Create a basic application using Red Hat's launcher wizard
 
 * Create the application using the https://developers.redhat.com/launch/wizard[launcher]
-* Give your application the name `booster-configmap-spring-boot`
+* Give your application the name *booster-configmap-spring-boot*
 * Select build and run locally
-* Select `Externalized Configuration`  in the left column
-* Select Spring Boot and the current `RHOAR release` and right column
-* Verify the `Maven Artifact` in the application information is set to `booster-configmap-spring-boot`
-* Click the `Set Up Application` button to download.
+* Select *Externalized Configuration*  in the left column
+* Select Spring Boot and the current *RHOAR release* and right column
+* Verify the *Maven Artifact* in the application information is set to *booster-configmap-spring-boot*
+* Click the *Set Up Application* button to download.
 * Create a root folder and unzip the application in it
 
 * Inside the folder you will see a README.adoc file 
 follow the instructions in it
 
-*Note:* the application can be found on https://github.com/craigivy/cloud-native-fundamentals/tree/master/6-config[github]
+NOTE: the application can be found on https://github.com/craigivy/cloud-native-fundamentals/tree/master/6-config[github]
 
