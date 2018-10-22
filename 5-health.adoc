@@ -1,6 +1,6 @@
 [[health]]
 Health Check Lab
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~
 
 In this Lab we use an application from the launcher to show the value of the health check.
 

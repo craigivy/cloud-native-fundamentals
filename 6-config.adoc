@@ -1,6 +1,6 @@
 [[health]]
 External Configuration Lab
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In this Lab we use an application from the launcher to demonstrate how configmaps can be used to externalize configuration
 

@@ -20,4 +20,4 @@ Overview and prerequisites
 * Abitity to install software.  Install OC Tools to communicate with openshift
 * Participants should have redhat developer accounts
 
-link:0_toc.adoc[Table Of Contents]
+link:0_toc.adoc[Table of Contents]

@@ -20,4 +20,4 @@ $ ls /deployments
 $ ps -ef
 ----
 
-link:0_toc.adoc[Table Of Contents]
+link:0_toc.adoc[Table of Contents]
