@@ -1,1 +1,1 @@
-0_toc.adoc
+See link:0_toc.adoc[Table of Contents]
