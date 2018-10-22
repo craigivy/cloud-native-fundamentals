@@ -1,12 +1,13 @@
 :toc:
 
 == Overview
+In this lab we will be using Red Hat's launcher to learn about cloud native concepts and how they can be applied in Openshit.  You will learn how to create an applications on Openshift, build knowledge of health check functionality, scaling, and external configuration.
 
 * Connecting to OpenShift with the client tools
 * Create your first OpenShift application
 * Openshift UI overview 
-* Heath Checks 
-* Externalizing Configuration
+* The importance of heath checks 
+* Externalizing your applications configuration
 * Running a WAR in OpenShift with JWS
 
 == Prerequisites
@@ -15,8 +16,8 @@
 * Access to github and basic git knowledge
 * Maven (3.3.x or greater) installed with access to Red Hat repositories
 * Access to sites with untrusted certificates
-* Abitity to install software.  Install client tools allowing you to communicate with openshift
-* Participants should have redhat developer accounts
+* Ability to install software on workshop laptop.  Install client tools allowing you to communicate with openshift
+* Participants should have redhat developer accounts and access to the https://developers.redhat.com/launch/[launcher] 
 
 == Setting up client tools
 
