@@ -104,7 +104,7 @@ Create a basic application using Red Hat's launcher wizard
 * Inside the folder you will see a README.adoc file 
 follow the instructions in it
 
-NOTE: the application can be found on https://github.com/craigivy/cloud-native-fundamentals/tree/master/3-create-application[github]
+NOTE: the application can be found in the https://github.com/craigivy/cloud-native-fundamentals/tree/master/3-create-application[3-create-application] directory
 
 == OpenShit UI
 
@@ -154,7 +154,7 @@ Create a basic application using Red Hat's launcher wizard
 * Inside the folder you will see a README.adoc file 
 follow the instructions in it
 
-NOTE: the application can be found on https://github.com/craigivy/cloud-native-fundamentals/tree/master/5-health[github]
+NOTE: the application can be found in the https://github.com/craigivy/cloud-native-fundamentals/tree/master/5-health[5-health] directory
 
 == External Configuration Lab
 
@@ -176,5 +176,11 @@ Create a basic application using Red Hat's launcher wizard
 * Inside the folder you will see a README.adoc file 
 follow the instructions in it
 
-NOTE: the application can be found on https://github.com/craigivy/cloud-native-fundamentals/tree/master/6-config[github]
+NOTE: the application can be found in the https://github.com/craigivy/cloud-native-fundamentals/tree/master/6-config[6-config] directory
 
+== WAR deployment
+In this lab we will deploy a WAR into openshift using JWS
+
+=== Deploy the Application
+* Use the application found in the https://github.com/craigivy/cloud-native-fundamentals/tree/master/7-jws[7-jws] folder
+* Follow the instructions in the README.adoc
