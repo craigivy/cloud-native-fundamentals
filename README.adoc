@@ -14,8 +14,8 @@ In this lab we will be using Red Hat's launcher to learn about cloud native conc
 === Prerequisites
 
 * OpenJDK or JDK 1.8 installed
-* Access to github and basic git knowledge
-* Maven (3.3.x or greater) installed with access to Red Hat repositories
+* https://git-scm.com/book/en/v2/Getting-Started-Installing-Git[Git] installed. Access to github and basic git knowledge
+* https://maven.apache.org/install.html[Maven] (3.3.x or greater) installed with access to Red Hat repositories
 * Access to sites with untrusted certificates
 * Ability to install software on workshop laptop.  Install client tools allowing you to communicate with openshift
 * Participants should have redhat developer accounts and access to the https://developers.redhat.com/launch/[launcher] 
@@ -101,10 +101,7 @@ Create a basic application using Red Hat's launcher wizard
 * Change the *Maven Artifact* in the application information to *booster-resthttp-springboot*
 * Click the *Set Up Application* button to download.
 * Create a root folder and unzip the application in it
-* Inside the folder you will see a README.adoc file 
-follow the instructions in it
-
-NOTE: the application can be found in the https://github.com/craigivy/cloud-native-fundamentals/tree/master/3-create-application[3-create-application] directory
+* Inside the directory open the file https://github.com/craigivy/cloud-native-fundamentals/tree/master/3-create-application[README.adoc] and follow the instructions.
 
 == OpenShift UI
 
@@ -150,11 +147,7 @@ Create a basic application using Red Hat's launcher wizard
 * Change the *Maven Artifact* in the application information to *booster-health-check-spr*
 * Click the *Set Up Application* button to download.
 * Create a root folder and unzip the application in it
-
-* Inside the folder you will see a README.adoc file 
-follow the instructions in it
-
-NOTE: the application can be found in the https://github.com/craigivy/cloud-native-fundamentals/tree/master/5-health[5-health] directory
+* Inside the directory open the file https://github.com/craigivy/cloud-native-fundamentals/tree/master/5-health[README.adoc] and follow the instructions.
 
 == External Configuration Lab
 
@@ -172,15 +165,14 @@ Create a basic application using Red Hat's launcher wizard
 * Verify the *Maven Artifact* in the application information is set to *booster-configmap-spring-boot*
 * Click the *Set Up Application* button to download.
 * Create a root folder and unzip the application in it
-
-* Inside the folder you will see a README.adoc file 
-follow the instructions in it
-
-NOTE: the application can be found in the https://github.com/craigivy/cloud-native-fundamentals/tree/master/6-config[6-config] directory
+* Inside the directory open the file https://github.com/craigivy/cloud-native-fundamentals/tree/master/6-config[README.adoc] and follow the instructions.
 
 == WAR deployment
+
+IMPORTANT: This approach is not the recommended approach.  Using RHOAR with Spring Boot is a much better approach.  It offers both Spring Boot and Tomcat support.  While using JWS only provides Tomcat support. The process below is something you can use at your own risk and not something you can request support for.
+
 In this lab we will deploy a WAR into openshift using JWS
 
 === Deploy the Application
 * Use the application found in the https://github.com/craigivy/cloud-native-fundamentals/tree/master/7-jws[7-jws] folder
-* Follow the instructions in the README.adoc
+* Inside the directory open the file https://github.com/craigivy/cloud-native-fundamentals/tree/master/7-jws[README.adoc] and follow the instructions.
