@@ -1,5 +1,7 @@
 = Java Web Server Booster
 
+IMPORTANT: This approach is not recommended.  Using RHOAR's Spring Boot offer support for both the web server and Spring Boot.  Using JWS only provides support for the webserver.  Use this at your own risk as support does not have the knowledge to support Spring Boot in JWS.
+
 IMPORTANT: This booster requires Java 8 JDK or greater and Maven 3.3.x or greater.
 
 In this lab we will create a WAR deployment within openshift using JBoss Web Server.  In this example we will call the deployment and related artifact jws.
